@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("bgr.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.558);
+    padding: 20px;
+    margin: 30px auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    text-align: left;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 5px; 
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #9c61cdf6;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(102, 154, 227);
+}
+
+p a {
+    color: #ba2efb;
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+p a:hover {
+    text-decoration: underline;
+}
